@@ -583,7 +583,7 @@ This script configures PHPMailer to send emails via Gmail's SMTP server.([CodeSh
 
 ---
 
-## 🗄️ Database Structure
+## 🗄️ Database Structure <a name="app-sql-explane"></a>
 
 Your MySQL database includes a `users` table to store user information.
 
