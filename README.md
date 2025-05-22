@@ -585,7 +585,7 @@ This script configures PHPMailer to send emails via Gmail's SMTP server.([CodeSh
 
 ## 🗄️ Database Structure <a name="app-sql-explane"></a>
 
-Your MySQL database includes a `users` table to store user information.
+my MySQL database includes a `users` table to store user information.
 
 **Example:**
 
@@ -602,17 +602,6 @@ CREATE TABLE users (
 This schema ensures unique usernames and emails, storing hashed passwords securely.
 
 #### Let’s break down this SQL command:
-
-```sql
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  username VARCHAR(50) NOT NULL UNIQUE,
-  email VARCHAR(100) NOT NULL UNIQUE,
-  password VARCHAR(255) NOT NULL,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
 ### Explanation:
 
 * `CREATE TABLE users (...)`
